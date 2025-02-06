@@ -1,0 +1,69 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('melody.webp'); /* Cambia la URL por la imagen que desees */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo semi-transparente para que el texto sea legible */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #e91e63;
+    font-size: 2.5em;
+}
+
+.roses img {
+    width: 100px;
+    margin: 20px 0;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    margin: 0 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#yesButton {
+    background-color: #4caf50;
+    color: white;
+}
+
+#yesButton:hover {
+    background-color: #45a049;
+}
+
+#noButton {
+    background-color: #f44336;
+    color: white;
+}
+
+#noButton:hover {
+    background-color: #e53935;
+}
+
+#responseMessage {
+    margin-top: 20px;
+    font-size: 1.5em;
+    color: #e91e63;
+}
